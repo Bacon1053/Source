@@ -173,7 +173,7 @@ function randomString()
 	return table.concat(array)
 end
 
-COREGUI = game.Players.Localplayer.PlayerGui
+COREGUI = game.Players.LocalPlayer.PlayerGui
 PARENT = nil
 if (not is_sirhurt_closure) and (syn and syn.protect_gui) then --sirhurt is retarded
 	local Main = Instance.new("ScreenGui")
